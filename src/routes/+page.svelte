@@ -6,6 +6,10 @@
   export let data;
 </script>
 
+<svelte:head>
+  <title>Mauritius Linux Mirrors</title>
+</svelte:head>
+
 <div class="flex flex-col gap-10 container mx-auto px-4 text-white">
   <h1 class="font-bold text-3xl text-center md:text-left md:text-5xl">Linux mirrors in Mauritius</h1>
 
