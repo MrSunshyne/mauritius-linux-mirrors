@@ -2,6 +2,6 @@
   import "../app.postcss";
 </script>
 
-<div class="h-screen grid items-center">
+<div class="min-h-screen grid items-center page-bg">
   <slot />
 </div>
