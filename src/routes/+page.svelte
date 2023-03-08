@@ -1,5 +1,6 @@
 <script lang="ts">
   import AdminCard from "../components/admin-card.svelte";
+  import Footer from "../components/footer.svelte";
   import MirrrorCard from "../components/mirrror-card.svelte";
 
   export let data;
@@ -20,4 +21,6 @@
       <AdminCard {admin} />
     {/each}
   </div>
+
+  <Footer />
 </div>
