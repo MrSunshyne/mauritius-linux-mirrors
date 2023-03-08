@@ -2,4 +2,6 @@
   import "../app.postcss";
 </script>
 
-<slot />
+<div class="h-screen grid items-center">
+  <slot />
+</div>
