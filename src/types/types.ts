@@ -8,7 +8,7 @@ export interface MirrorDetail {
 }
 
 export interface IResponse {
-  "Linux Mirrors in Mauritius": MirrorDetail[];
+  data: MirrorDetail[];
   admins: string[];
   url: string;
   email: string;
