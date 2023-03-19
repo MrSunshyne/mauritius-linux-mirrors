@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div class="flex flex-col gap-10 container mx-auto px-4 text-white content-container">
-  <h1 class="font-bold text-3xl text-center md:text-left md:text-5xl">Linux mirrors in Mauritius</h1>
+  <h1 class="font-bold text-3xl text-center md:text-left md:text-5xl">Linux Mirrors in Mauritius</h1>
 
   <div class="mirrors gap-2 font-mono">
     {#each data.mirrors as mirror}
